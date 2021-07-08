@@ -9,8 +9,14 @@
   <li>CSS</li>
   <li>JS</li>
 </ul>
+
 ## ⚙️ Configuração
 <p> 1 - Para baixar o projeto </p>
-> git clone https://github.com/henriquezanette/Travel-Company.git
-<p> 2 - Para rodar o projeto </p>
+
+>  git clone https://github.com/henriquezanette/Travel-Company.git 
+
+<p> 2 - Para rodar o projeto </p> 
+
+
 > Abrir o arquivo .html
+
