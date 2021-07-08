@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/travelcompany.png">
+    <title>Travel Company</title>
+    <script src="https://kit.fontawesome.com/2ad4501462.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>  
+        <img class="nav_logo" src="assets/travelcompany.png"/>
+        <div class="nav_barraazul"></div>
+        <ul>
+            <li><a href="#">SOBRE NÓS</a></li><i class="fas fa-chevron-down"></i>
+            <li><a href="#">DESTINOS</a></li><i class="fas fa-chevron-down"></i>
+            <li><a href="#">ACOMODAÇÕES</a></li><i class="fas fa-chevron-down"></i>
+            <li><a href="#">CONTATO</a></li><i class="fas fa-chevron-down"></i>
+        </ul>
+    </nav>
+
+    <header>
+        <i class="fas fa-chevron-left fa-3x"></i>
+        <div id="home" class="header_content">
+            <h1>MELHORES DESTINOS</h1>
+            <p>Percebemos, cada vez mais, que o novo modelo estrutural aqui preconizado faz parte de um processo de gestão alternativas as soluções ortodoxas.</p>
+        </div>
+        <i class="fas fa-chevron-right fa-3x"></i>
+    </header>
+
+    <section id="hero" class="hero">
+        <h1 class="hero_title">O QUE VOCÊ PROCURA?</h1>
+        <div class="hero_barrazul"></div>
+        <div class="hero_cards">
+            <div class="card">
+                <img src="assets/Ellipse 1.png"/>
+                <div class="card_content">
+                    <h1>CASA NO CAMPO</h1>
+                    <p>Neste sentido, a mobilidade dos capitais internacionais acarreta um processo de reformulação e modernização.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/Ellipse 3.png"/>
+                <div class="card_content">
+                    <h1>CASA NA PRAIA</h1>
+                    <p>É importante questionar o quanto o surgimento do comércio virtual representa uma abertura.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/Ellipse 5.png"/>
+                <div class="card_content">
+                    <h1>CASA URBANA</h1>
+                    <p>O emprenho em analisar o acompanhamento das preferências de consumo oefere uma interessante.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="info" class="info">
+        <h1 class="info_title">SOBRE AS NOSSAS ACOMODAÇÕES</h1>
+        <div class="info_barraverde"></div>
+        <div class="info_cards">
+            <div class="cards">
+                <div class="card_content">
+                    <h1>SOBRE O APARTAMENTO</h1>
+                    <p>O que temos que ter sempre em mente é quea  determinação clara de objetivos cumpre um papel essencial na formulação do sistema de participação geral. Percebemos, cada vez mais que a consulta aos diversos militantes promove a alavancagem das novas proposições.</p>
+                    <button>SABER MAIS</button>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="card_content">
+                    <h1>SOBRE A CASA</h1>
+                    <p>As experiências acumuladas demonstram que a execução dos pontos do programa ainda não demonstrou convincentemente que vai participar na mudança das formas de ação. Desta maneira, a consulta aos diversos militantes promove a alavancagem de todos os recursos funcionais envolvidos.</p>
+                    <button>SABER MAIS</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <section id="form" class="formulario">
+        <div class="form_info">
+            <h1 class="form_title">FICOU INTERESSADO?</h1>
+            <p>Preencha o formulário e entre em contato conosco!</p>
+        </div>
+        <form id="formulario_mensagem">
+            <input type="text" name="nome" placeholder="Nome: Luciano Ricardo"/>
+            <input type="text" name="e-mail" placeholder="E-mail: lucianoricardo@gmail.com"/>
+            <input type="text" name="telefone" placeholder="Telefone: 51 9999-7777"/>
+            <textarea type="text" name="mensagem" placeholder="Mensagem: Olá, gostaria de mais informações sobre as acomodações em casas na praia. Obrigado!"></textarea>
+            <button type="submit" id="enviar">ENVIAR</button>
+        </form>
+    </section>
+
+
+    
+    <footer>
+        <div class="footer_wrap">
+            <div class="footer_socialmedia">
+                <span><i class="fab fa-facebook-f"></i>Facebook</span>
+                <span><i class="fab fa-instagram"></i>Instagram</span>
+                <span><i class="fab fa-twitter"></i>Twitter</span>
+            </div>
+            <div class="footer_copyright">
+                <p>2016 © Travel Company. Todos os direitos Reservados</p>
+            </div>
+            <img class="footer_studiologo" src="assets/studiodz.png"/>
+        </div>
+    </footer>
+</body>
+<script>
+    var form = document.getElementById("formulario_mensagem");
+
+    document.getElementById("enviar").addEventListener("click", function () {
+        form.submit();
+        alert('Formulário enviado com sucesso');
+    });
+</script>
+</html>
